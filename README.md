@@ -45,4 +45,4 @@
 [issues-shield]: https://img.shields.io/github/issues/benipoo/yosys-docker.svg?style=for-the-badge
 [issues-url]: https://github.com/benipoo/yosys-docker/issues
 [license-shield]: https://img.shields.io/github/license/benipoo/yosys-docker.svg?style=for-the-badge
-[license-url]: https://github.com/benipoo/yosys-docker/blob/master/LICENSE.txt
+[license-url]: https://github.com/benipoo/yosys-docker/master/LICENSE.txt
