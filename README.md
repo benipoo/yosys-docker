@@ -32,43 +32,13 @@
    npm install
    npm install -g .
    npm install elkjs --force
-   git clone YOUR_REPO
-   ```
-
-   ```console
-   # Create a working directory and clear remaining files from a previous docker run command.
-   cd ~ && sudo rm -r yosys
-   
-   # Run the pre-configured docker image, or build from source(see bottom of README.md).
-   sudo docker run -it --rm -v /home/yosys:/home/yosys benipoo/yosys:latest
-   
-   # Move to home directory of docker container.
-   cd ~ && cd /home/yosys/oss-cad-suite
-   
-   # Enter environment.
-   source ./environment
-   
-   # Enter directory used to generate your SVG schematic.
-   cd netlistsvg
-   
-   # Clone your own repository.
-   git clone YOUR_REPO
-   
-   # Enter into your working directory:
-   cd YOUR_REPO
-   cd /path/to/your/directory/of/verilog/files
-   
-   # Generate netlists and schematics.
-   # An explanation of the following line is located at bottom of README.md.
+   git clone https://github.com/benipoo/yosys-docker.git
+   cd yosys-docker/example_project_directory/
    rm -R -- */ ; for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir" ; cp "$file" "$dir" ; cd "$dir" ; yosys -p 'synth -auto-top ; abc -g cmos2,-NOR; write_verilog output.v' "$file" -p 'write_json answer.json' ; netlistsvg answer.json ; cd ../ ; done
-   
-   # The repository can now be pushed to your origin. To push to git, use a token to authenticate. Otherwise build from source.
    git add .
    git commit -m "this is too easy!"
-   git push origin main
+   git push
    ```
-   
-   <img src="images/out.svg.png" height="400">
    
 2. Further explanation of Yosys loop:
 
@@ -110,27 +80,6 @@
      
    # Execution ends when all .v files have been iterated.
    done
-   ```
-3. How to build from source:
-
-   ```console
-   cd ~
-   sudo rm -r yosys
-   mkdir yosys
-   cd yosys
-   sudo docker pull ubuntu:latest
-   sudo docker run -it --rm -v /home/yosys:/home/yosys ubuntu:latest
-   cd home/yosys
-   pt update && apt install git wget -y && wget https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2023-04-17/oss-cad-suite-linux-x64-20230417.tgz && \
-	tar -xvzf oss-cad-suite-linux-x64-20230417.tgz
-   cd oss-cad-suite
-   source ./environment
-   apt install npm -y && git clone https://github.com/nturley/netlistsvg
-   cd netlistsvg
-   npm install
-   npm install -g .
-   npm install elkjs --force
-   git clone YOUR_REPO
    ```
    
 <!-- MARKDOWN LINKS & IMAGES -->
