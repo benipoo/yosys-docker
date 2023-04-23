@@ -16,6 +16,8 @@
 
 <img src="images/patrick_quote2.svg">
 
+1. Build from source: 
+
    ```console
    cd ~
    sudo rm -r yosys
