@@ -17,6 +17,25 @@
 <img src="images/patrick_quote2.svg">
 
    ```console
+   cd ~
+   sudo rm -r yosys
+   mkdir yosys
+   cd yosys
+   sudo docker pull ubuntu:latest
+   sudo docker run -it --rm ubuntu:latest
+   apt update && apt install git wget -y && wget https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2023-04-17/oss-cad-suite-linux-x64-20230417.tgz && \
+	tar -xvzf oss-cad-suite-linux-x64-20230417.tgz
+   cd oss-cad-suite
+   source ./environment
+   apt install npm -y && git clone https://github.com/nturley/netlistsvg
+   cd netlistsvg
+   npm install
+   npm install -g .
+   npm install elkjs --force
+   git clone YOUR_REPO
+   ```
+
+   ```console
    # Create a working directory and clear remaining files from a previous docker run command.
    cd ~ && sudo rm -r yosys
    
