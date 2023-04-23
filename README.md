@@ -3,7 +3,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Issues][license-shield]][issues-url]
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://benipoo-effective-orbit-757w744799vfxrgg.github.dev/)
 
 <img src="images/patrick_quote2.svg">
@@ -44,5 +43,3 @@
 [stars-url]: https://github.com/benipoo/yosys-docker/stargazers
 [issues-shield]: https://img.shields.io/github/issues/benipoo/yosys-docker.svg?style=for-the-badge
 [issues-url]: https://github.com/benipoo/yosys-docker/issues
-[license-shield]: https://img.shields.io/github/license/benipoo/yosys-docker.svg?style=for-the-badge
-[license-url]: https://github.com/benipoo/yosys-docker/blob/master/LICENSE.txt
