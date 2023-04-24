@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg20710"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="drawing-1.svg">
+  <defs
+     id="defs20704" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata20707">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.91026258px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17275657;image-rendering:optimizeQuality"
+       x="29.175283"
+       y="76.953636"
+       id="text3715"><tspan
+         sodipodi:role="line"
+         id="tspan3713"
+         x="29.175283"
+         y="76.953636"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657">`timescale 1ns / 1ps</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="85.773079"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3719">module compare_to_zero(</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="94.592522"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3721">       input [15:0] sel0,</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="103.41196"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3723">	      input [15:0] sub,</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="112.23141"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3725">	      input done_input,</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="121.05086"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3727">	      output reg done_output,</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="129.8703"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3729">   	   output reg boolean);</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="138.68974"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3733">	</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="147.50919"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan17277">always @(*)</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="156.32863"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3735">       if((sub &gt; sel0) || (done_input == 1))</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="165.14807"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3737">		           begin</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="173.96751"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3739">			                 boolean = 0;</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="182.78696"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3741">			                 done_output = 1;</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="191.6064"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3743">		            end</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="200.42586"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3745">	       <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#ff007f;fill-opacity:1;stroke:none;stroke-width:0.0457085;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   id="tspan18090">else</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="209.2453"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3747">		            begin</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="218.06474"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3749">			                  boolean = 1;</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="226.88419"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3751">			                  done_output = 0;</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="235.70363"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3753">		            end</tspan><tspan
+         sodipodi:role="line"
+         x="29.175283"
+         y="244.52307"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;opacity:0;fill:#ff007f;fill-opacity:1;stroke-width:0.17275657"
+         id="tspan3755">endmodule</tspan></text>
+  </g>
+</svg>
