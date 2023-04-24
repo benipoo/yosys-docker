@@ -7,31 +7,30 @@
 
 <img src="images/patrick_quote2.svg">
 
-1. Build from source: 
-
-   ```console
-   cd ~
-   sudo rm -r yosys
-   mkdir yosys
-   cd yosys
-   sudo docker pull ubuntu:latest
-   sudo docker run -it --rm ubuntu:latest
-   apt update && apt install git wget -y && wget https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2023-04-17/oss-cad-suite-linux-x64-20230417.tgz && \
-	tar -xvzf oss-cad-suite-linux-x64-20230417.tgz
-   cd oss-cad-suite
-   source ./environment
-   apt install npm -y && git clone https://github.com/nturley/netlistsvg
-   cd netlistsvg
-   npm install
-   npm install -g .
-   npm install elkjs --force
-   git clone https://github.com/benipoo/yosys-docker.git
-   cd yosys-docker/example_project_directory/
-   rm -R -- */ ; for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir" ; cp "$file" "$dir" ; cd "$dir" ; yosys -p 'synth -auto-top ; abc -g cmos2,-NOR; write_verilog output.v' "$file" -p 'write_json answer.json' ; netlistsvg answer.json ; cd ../ ; done
-   git add .
-   git commit -m "this is too easy!"
-   git push
-   ```
+```console
+# Build from source: 
+cd ~
+sudo rm -r yosys
+mkdir yosys
+cd yosys
+sudo docker pull ubuntu:latest
+sudo docker run -it --rm ubuntu:latest
+apt update && apt install git wget -y && wget https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2023-04-17/oss-cad-suite-linux-x64-20230417.tgz && \
+tar -xvzf oss-cad-suite-linux-x64-20230417.tgz
+cd oss-cad-suite
+source ./environment
+apt install npm -y && git clone https://github.com/nturley/netlistsvg
+cd netlistsvg
+npm install
+npm install -g .
+npm install elkjs --force
+git clone https://github.com/benipoo/yosys-docker.git
+cd yosys-docker/example_project_directory/
+rm -R -- */ ; for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir" ; cp "$file" "$dir" ; cd "$dir" ; yosys -p 'synth -auto-top ; abc -g cmos2,-NOR; write_verilog output.v' "$file" -p 'write_json answer.json' ; netlistsvg answer.json ; cd ../ ; done
+git add .
+git commit -m "this is too easy!"
+git push
+```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
