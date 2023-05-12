@@ -26,7 +26,7 @@ npm install -g .
 npm install elkjs --force
 git clone https://github.com/benipoo/yosys-docker.git
 cd yosys-docker/example_project_directory/
-rm -R -- */ ; for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir" ; cp "$file" "$dir" ; cd "$dir" ; yosys -p 'synth -auto-top ; abc -g cmos2,-NOR; write_verilog output.v' "$file" -p 'write_json answer.json' ; netlistsvg answer.json ; cd ../ ; done
+rm -R -- */ ; for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir" ; cp "$file" "$dir" ; cd "$dir" ; yosys -p 'synth -auto-top ; abc -g cmos2,-NOR; write_verilog output.v' "$file" -p 'write_json answer.json' -p 'write_spice answer.spice';  netlistsvg answer.json ; cd ../ ; done
 git add .
 git commit -m "this is too easy!"
 git push
