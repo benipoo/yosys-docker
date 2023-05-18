@@ -1,0 +1,15 @@
+# Path to directory of circuits to use
+circuits_dir=benchmarks/verilog
+
+# Path to directory of architectures to use
+archs_dir=arch/timing
+
+# Add circuits to list to sweep
+circuit_list_add=ch_intrinsics.v
+circuit_list_add=diffeq1.v
+
+# Add architectures to list to sweep
+arch_list_add=k6_N10_memSize16384_memData64_stratix4_based_timing_sparse.xml
+
+# Parse info and how to parse
+parse_file=vpr_standard.txt
