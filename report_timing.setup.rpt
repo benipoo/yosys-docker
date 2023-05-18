@@ -1,0 +1,665 @@
+#Timing report of worst 16 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~15.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].cout[0] (adder)                               0.010     1.040
+add_one^ADD~0-10[0].cin[0] (adder)                               0.000     1.040
+add_one^ADD~0-10[0].cout[0] (adder)                              0.010     1.050
+add_one^ADD~0-11[0].cin[0] (adder)                               0.000     1.050
+add_one^ADD~0-11[0].cout[0] (adder)                              0.010     1.060
+add_one^ADD~0-12[0].cin[0] (adder)                               0.000     1.060
+add_one^ADD~0-12[0].cout[0] (adder)                              0.010     1.070
+add_one^ADD~0-13[0].cin[0] (adder)                               0.000     1.070
+add_one^ADD~0-13[0].cout[0] (adder)                              0.010     1.080
+add_one^ADD~0-14[0].cin[0] (adder)                               0.000     1.080
+add_one^ADD~0-14[0].cout[0] (adder)                              0.010     1.090
+add_one^ADD~0-15[0].cin[0] (adder)                               0.000     1.090
+add_one^ADD~0-15[0].cout[0] (adder)                              0.010     1.100
+add_one^ADD~0-16[0].cin[0] (adder)                               0.000     1.100
+add_one^ADD~0-16[0].sumout[0] (adder)                            0.300     1.400
+out:add_one^out~15.outpad[0] (.output)                           0.439     1.839
+data arrival time                                                          1.839
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.839
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.839
+
+
+#Path 2
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~13.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].cout[0] (adder)                               0.010     1.040
+add_one^ADD~0-10[0].cin[0] (adder)                               0.000     1.040
+add_one^ADD~0-10[0].cout[0] (adder)                              0.010     1.050
+add_one^ADD~0-11[0].cin[0] (adder)                               0.000     1.050
+add_one^ADD~0-11[0].cout[0] (adder)                              0.010     1.060
+add_one^ADD~0-12[0].cin[0] (adder)                               0.000     1.060
+add_one^ADD~0-12[0].cout[0] (adder)                              0.010     1.070
+add_one^ADD~0-13[0].cin[0] (adder)                               0.000     1.070
+add_one^ADD~0-13[0].cout[0] (adder)                              0.010     1.080
+add_one^ADD~0-14[0].cin[0] (adder)                               0.000     1.080
+add_one^ADD~0-14[0].sumout[0] (adder)                            0.300     1.380
+out:add_one^out~13.outpad[0] (.output)                           0.437     1.817
+data arrival time                                                          1.817
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.817
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.817
+
+
+#Path 3
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~9.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].cout[0] (adder)                               0.010     1.040
+add_one^ADD~0-10[0].cin[0] (adder)                               0.000     1.040
+add_one^ADD~0-10[0].sumout[0] (adder)                            0.300     1.340
+out:add_one^out~9.outpad[0] (.output)                            0.455     1.795
+data arrival time                                                          1.795
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.795
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.795
+
+
+#Path 4
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~7.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].sumout[0] (adder)                             0.300     1.320
+out:add_one^out~7.outpad[0] (.output)                            0.433     1.753
+data arrival time                                                          1.753
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.753
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.753
+
+
+#Path 5
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~10.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].cout[0] (adder)                               0.010     1.040
+add_one^ADD~0-10[0].cin[0] (adder)                               0.000     1.040
+add_one^ADD~0-10[0].cout[0] (adder)                              0.010     1.050
+add_one^ADD~0-11[0].cin[0] (adder)                               0.000     1.050
+add_one^ADD~0-11[0].sumout[0] (adder)                            0.300     1.350
+out:add_one^out~10.outpad[0] (.output)                           0.343     1.692
+data arrival time                                                          1.692
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.692
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.692
+
+
+#Path 6
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~11.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].cout[0] (adder)                               0.010     1.040
+add_one^ADD~0-10[0].cin[0] (adder)                               0.000     1.040
+add_one^ADD~0-10[0].cout[0] (adder)                              0.010     1.050
+add_one^ADD~0-11[0].cin[0] (adder)                               0.000     1.050
+add_one^ADD~0-11[0].cout[0] (adder)                              0.010     1.060
+add_one^ADD~0-12[0].cin[0] (adder)                               0.000     1.060
+add_one^ADD~0-12[0].sumout[0] (adder)                            0.300     1.360
+out:add_one^out~11.outpad[0] (.output)                           0.305     1.665
+data arrival time                                                          1.665
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.665
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.665
+
+
+#Path 7
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~4.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].sumout[0] (adder)                             0.300     1.290
+out:add_one^out~4.outpad[0] (.output)                            0.356     1.645
+data arrival time                                                          1.645
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.645
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.645
+
+
+#Path 8
+Startpoint: add_one^sel1~0.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~1.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~0.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-1[0].b[0] (adder)                                  0.578     0.578
+add_one^ADD~0-1[0].cout[0] (adder)                               0.300     0.878
+add_one^ADD~0-2[0].cin[0] (adder)                                0.000     0.878
+add_one^ADD~0-2[0].sumout[0] (adder)                             0.300     1.178
+out:add_one^out~1.outpad[0] (.output)                            0.458     1.636
+data arrival time                                                          1.636
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.636
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.636
+
+
+#Path 9
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~12.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].cout[0] (adder)                               0.010     1.040
+add_one^ADD~0-10[0].cin[0] (adder)                               0.000     1.040
+add_one^ADD~0-10[0].cout[0] (adder)                              0.010     1.050
+add_one^ADD~0-11[0].cin[0] (adder)                               0.000     1.050
+add_one^ADD~0-11[0].cout[0] (adder)                              0.010     1.060
+add_one^ADD~0-12[0].cin[0] (adder)                               0.000     1.060
+add_one^ADD~0-12[0].cout[0] (adder)                              0.010     1.070
+add_one^ADD~0-13[0].cin[0] (adder)                               0.000     1.070
+add_one^ADD~0-13[0].sumout[0] (adder)                            0.300     1.370
+out:add_one^out~12.outpad[0] (.output)                           0.263     1.633
+data arrival time                                                          1.633
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.633
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.633
+
+
+#Path 10
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~2.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].sumout[0] (adder)                             0.300     1.270
+out:add_one^out~2.outpad[0] (.output)                            0.344     1.614
+data arrival time                                                          1.614
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.614
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.614
+
+
+#Path 11
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~6.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].sumout[0] (adder)                             0.300     1.310
+out:add_one^out~6.outpad[0] (.output)                            0.285     1.595
+data arrival time                                                          1.595
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.595
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.595
+
+
+#Path 12
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~14.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].cout[0] (adder)                               0.010     1.040
+add_one^ADD~0-10[0].cin[0] (adder)                               0.000     1.040
+add_one^ADD~0-10[0].cout[0] (adder)                              0.010     1.050
+add_one^ADD~0-11[0].cin[0] (adder)                               0.000     1.050
+add_one^ADD~0-11[0].cout[0] (adder)                              0.010     1.060
+add_one^ADD~0-12[0].cin[0] (adder)                               0.000     1.060
+add_one^ADD~0-12[0].cout[0] (adder)                              0.010     1.070
+add_one^ADD~0-13[0].cin[0] (adder)                               0.000     1.070
+add_one^ADD~0-13[0].cout[0] (adder)                              0.010     1.080
+add_one^ADD~0-14[0].cin[0] (adder)                               0.000     1.080
+add_one^ADD~0-14[0].cout[0] (adder)                              0.010     1.090
+add_one^ADD~0-15[0].cin[0] (adder)                               0.000     1.090
+add_one^ADD~0-15[0].sumout[0] (adder)                            0.300     1.390
+out:add_one^out~14.outpad[0] (.output)                           0.189     1.579
+data arrival time                                                          1.579
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.579
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.579
+
+
+#Path 13
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~5.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].sumout[0] (adder)                             0.300     1.300
+out:add_one^out~5.outpad[0] (.output)                            0.266     1.566
+data arrival time                                                          1.566
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.566
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.566
+
+
+#Path 14
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~8.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].cout[0] (adder)                               0.010     0.990
+add_one^ADD~0-5[0].cin[0] (adder)                                0.000     0.990
+add_one^ADD~0-5[0].cout[0] (adder)                               0.010     1.000
+add_one^ADD~0-6[0].cin[0] (adder)                                0.000     1.000
+add_one^ADD~0-6[0].cout[0] (adder)                               0.010     1.010
+add_one^ADD~0-7[0].cin[0] (adder)                                0.000     1.010
+add_one^ADD~0-7[0].cout[0] (adder)                               0.010     1.020
+add_one^ADD~0-8[0].cin[0] (adder)                                0.000     1.020
+add_one^ADD~0-8[0].cout[0] (adder)                               0.010     1.030
+add_one^ADD~0-9[0].cin[0] (adder)                                0.000     1.030
+add_one^ADD~0-9[0].sumout[0] (adder)                             0.300     1.330
+out:add_one^out~8.outpad[0] (.output)                            0.210     1.540
+data arrival time                                                          1.540
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.540
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.540
+
+
+#Path 15
+Startpoint: add_one^sel1~1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~3.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~1.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-2[0].b[0] (adder)                                  0.670     0.670
+add_one^ADD~0-2[0].cout[0] (adder)                               0.300     0.970
+add_one^ADD~0-3[0].cin[0] (adder)                                0.000     0.970
+add_one^ADD~0-3[0].cout[0] (adder)                               0.010     0.980
+add_one^ADD~0-4[0].cin[0] (adder)                                0.000     0.980
+add_one^ADD~0-4[0].sumout[0] (adder)                             0.300     1.280
+out:add_one^out~3.outpad[0] (.output)                            0.207     1.487
+data arrival time                                                          1.487
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.487
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.487
+
+
+#Path 16
+Startpoint: add_one^sel1~0.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:add_one^out~0.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+add_one^sel1~0.inpad[0] (.input)                                 0.000     0.000
+add_one^ADD~0-1[0].b[0] (adder)                                  0.578     0.578
+add_one^ADD~0-1[0].sumout[0] (adder)                             0.300     0.878
+out:add_one^out~0.outpad[0] (.output)                            0.457     1.334
+data arrival time                                                          1.334
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                         -1.334
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -1.334
+
+
+#End of timing report
