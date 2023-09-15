@@ -83,6 +83,27 @@ library(cells) {
     pin(Y) { direction: output;
              function: "(A*B*C*D*E*F*G*H)'"; }
   }
+  cell(NAND16) {
+    area: 1;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(C) { direction: input; }
+    pin(D) { direction: input; }
+    pin(E) { direction: input; }
+    pin(F) { direction: input; }
+    pin(G) { direction: input; }
+    pin(H) { direction: input; }
+    pin(I) { direction: input; }
+    pin(J) { direction: input; }
+    pin(K) { direction: input; }
+    pin(L) { direction: input; }
+    pin(M) { direction: input; }
+    pin(N) { direction: input; }
+    pin(O) { direction: input; }
+    pin(P) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(A*B*C*D*E*F*G*H*I*J*K*L*M*N*O*P)'"; }
+  }
   cell(NOR2) {
     area: 1;
     pin(A) { direction: input; }
