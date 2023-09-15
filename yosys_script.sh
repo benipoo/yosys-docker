@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd yosys-docker/
 #cp -fr default.svg /home/ben/Desktop/yosys/netlistsvg/lib/
 yosys
 read_verilog add_one.v
