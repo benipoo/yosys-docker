@@ -1,8 +1,5 @@
 #!/bin/bash
 
-cd /home/ben/Desktop/yosys/netlistsvg/
-sudo rm -R yosys-docker/
-git clone https://github.com/benipoo/yosys-docker.git
 cd yosys-docker/
 #cp -fr default.svg /home/ben/Desktop/yosys/netlistsvg/lib/
 yosys
