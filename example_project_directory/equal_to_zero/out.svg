@@ -1,23 +1,651 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="887" height="886.5"><style>svg {
-  stroke:#000;
-  fill:none;
-}
-text {
-  fill:#000;
-  stroke:none;
-  font-size:10px;
-  font-weight: bold;
-  font-family: "Courier New", monospace;
-}
-line {
-    stroke-linecap: round;
-}
-.nodelabel {
-  text-anchor: middle;
-}
-.inputPortLabel {
-  text-anchor: end;
-}
-.splitjoinBody {
-  fill:#000;
-}</style><g s:type="not" transform="translate(205,12)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$120"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$120"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$120"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,67)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$121"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$121"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$121"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,122)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$122"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$122"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$122"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,182)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$123"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$123"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$123"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,237)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$124"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$124"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$124"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,292)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$125"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$125"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$125"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,347)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$126"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$126"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$126"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,402)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$127"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$127"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$127"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,457)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$128"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$128"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$128"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,512)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$129"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$129"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$129"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,567)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$130"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$130"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$130"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,627)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$131"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$131"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$131"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,682)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$132"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$132"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$132"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,737)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$133"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$133"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$133"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,852)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$134"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$134"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$134"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="not" transform="translate(205,792)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$135"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$135"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$135"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,497)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$136"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$136"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$136"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,499.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$137"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$137"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$137"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,172)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$138"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$138"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$138"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,174.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$139"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$139"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$139"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(422,504.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$140"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$140"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$140"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(494,507)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$141"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$141"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$141"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,782)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$142"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$142"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$142"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,784.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$143"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$143"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$143"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,557)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$144"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$144"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$144"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,559.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$145"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$145"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$145"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(422,789.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$146"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$146"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$146"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(494,792)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$147"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$147"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$147"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(559,782)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$148"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$148"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$148"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(631,784.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$149"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$149"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$149"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,392)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$150"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$150"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$150"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,394.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$151"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$151"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$151"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,112)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$152"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$152"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$152"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,114.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$153"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$153"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$153"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(422,399.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$154"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$154"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$154"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(494,402)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$155"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$155"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$155"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,842)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$156"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$156"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$156"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,844.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$157"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$157"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$157"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(285,617)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$158"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$158"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$158"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(357,619.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$159"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$159"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$159"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(422,849.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$160"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$160"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$160"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(494,852)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$161"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$161"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$161"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(559,842)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$162"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$162"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$162"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(631,844.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$163"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$163"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$163"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="nand" transform="translate(696,834.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$164"><s:alias val="$nand"/><s:alias val="$logic_nand"/><s:alias val="$_NAND_"/><s:alias val="$_ANDNOT_"/><path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$164"/><circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$164"/><g s:x="0" s:y="5" s:pid="A"/><g s:x="0" s:y="20" s:pid="B"/><g s:x="36" s:y="12.5" s:pid="Y"/></g><g s:type="not" transform="translate(768,837)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$165"><s:alias val="$_NOT_"/><s:alias val="$not"/><s:alias val="$logic_not"/><path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$165"/><circle cx="24" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$165"/><g s:x="-1" s:y="10" s:pid="A"/><g s:x="27" s:y="10" s:pid="Y"/></g><g s:type="inputExt" transform="translate(12,274.5)" s:width="30" s:height="20" id="cell_input0"><text x="15" y="-4" class="nodelabel cell_input0" s:attribute="ref">input0</text><s:alias val="$_inputExt_"/><path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_input0"/><g s:x="30" s:y="10" s:pid="Y"/></g><g s:type="outputExt" transform="translate(833,837)" s:width="30" s:height="20" id="cell_boolean"><text x="15" y="-4" class="nodelabel cell_boolean" s:attribute="ref">boolean</text><s:alias val="$_outputExt_"/><path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_boolean"/><g s:x="0" s:y="10" s:pid="A"/></g><g s:type="split" transform="translate(122,296.5)" s:width="5" s:height="40" id="cell_$split$,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,"><rect width="5" height="320" class="splitjoinBody" s:generic="body"/><s:alias val="$_split_"/><g s:x="0" s:y="20" s:pid="in"/><g transform="translate(4,10)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">1</text></g><g transform="translate(4,30)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">0</text></g><g transform="translate(4,50)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">3</text></g><g transform="translate(4,70)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">2</text></g><g transform="translate(4,90)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">5</text></g><g transform="translate(4,110)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">4</text></g><g transform="translate(4,130)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">7</text></g><g transform="translate(4,150)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">6</text></g><g transform="translate(4,170)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">9</text></g><g transform="translate(4,190)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">8</text></g><g transform="translate(4,210)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">11</text></g><g transform="translate(4,230)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">10</text></g><g transform="translate(4,250)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">13</text></g><g transform="translate(4,270)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">12</text></g><g transform="translate(4,290)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">15</text></g><g transform="translate(4,310)" s:x="4" s:y="10" s:pid="out0"><text x="5" y="-4">14</text></g></g><line x1="126.5" x2="126.5" y1="306.5" y2="22" class="net_3 width_1" style="stroke-width: 1"/><line x1="126.5" x2="204" y1="22" y2="22" class="net_3 width_1" style="stroke-width: 1"/><line x1="126.5" x2="126.5" y1="326.5" y2="77" class="net_2 width_1" style="stroke-width: 1"/><line x1="126.5" x2="204" y1="77" y2="77" class="net_2 width_1" style="stroke-width: 1"/><line x1="127" x2="144" y1="347" y2="347" class="net_5 width_1" style="stroke-width: 1"/><line x1="144" x2="144" y1="347" y2="132" class="net_5 width_1" style="stroke-width: 1"/><line x1="144" x2="204" y1="132" y2="132" class="net_5 width_1" style="stroke-width: 1"/><line x1="127" x2="154" y1="367" y2="367" class="net_4 width_1" style="stroke-width: 1"/><line x1="154" x2="154" y1="367" y2="192" class="net_4 width_1" style="stroke-width: 1"/><line x1="154" x2="204" y1="192" y2="192" class="net_4 width_1" style="stroke-width: 1"/><line x1="127" x2="164" y1="387" y2="387" class="net_7 width_1" style="stroke-width: 1"/><line x1="164" x2="164" y1="387" y2="247" class="net_7 width_1" style="stroke-width: 1"/><line x1="164" x2="204" y1="247" y2="247" class="net_7 width_1" style="stroke-width: 1"/><line x1="127" x2="174" y1="407" y2="407" class="net_6 width_1" style="stroke-width: 1"/><line x1="174" x2="174" y1="407" y2="302" class="net_6 width_1" style="stroke-width: 1"/><line x1="174" x2="204" y1="302" y2="302" class="net_6 width_1" style="stroke-width: 1"/><line x1="127" x2="184" y1="427" y2="427" class="net_9 width_1" style="stroke-width: 1"/><line x1="184" x2="184" y1="427" y2="357" class="net_9 width_1" style="stroke-width: 1"/><line x1="184" x2="204" y1="357" y2="357" class="net_9 width_1" style="stroke-width: 1"/><line x1="127" x2="194" y1="447" y2="447" class="net_8 width_1" style="stroke-width: 1"/><line x1="194" x2="194" y1="447" y2="412" class="net_8 width_1" style="stroke-width: 1"/><line x1="194" x2="204" y1="412" y2="412" class="net_8 width_1" style="stroke-width: 1"/><line x1="127" x2="204" y1="467" y2="467" class="net_11 width_1" style="stroke-width: 1"/><line x1="127" x2="184" y1="487" y2="487" class="net_10 width_1" style="stroke-width: 1"/><line x1="184" x2="184" y1="487" y2="522" class="net_10 width_1" style="stroke-width: 1"/><line x1="184" x2="204" y1="522" y2="522" class="net_10 width_1" style="stroke-width: 1"/><line x1="127" x2="174" y1="507" y2="507" class="net_13 width_1" style="stroke-width: 1"/><line x1="174" x2="174" y1="507" y2="577" class="net_13 width_1" style="stroke-width: 1"/><line x1="174" x2="204" y1="577" y2="577" class="net_13 width_1" style="stroke-width: 1"/><line x1="127" x2="164" y1="527" y2="527" class="net_12 width_1" style="stroke-width: 1"/><line x1="164" x2="164" y1="527" y2="637" class="net_12 width_1" style="stroke-width: 1"/><line x1="164" x2="204" y1="637" y2="637" class="net_12 width_1" style="stroke-width: 1"/><line x1="127" x2="154" y1="547" y2="547" class="net_15 width_1" style="stroke-width: 1"/><line x1="154" x2="154" y1="547" y2="692" class="net_15 width_1" style="stroke-width: 1"/><line x1="154" x2="204" y1="692" y2="692" class="net_15 width_1" style="stroke-width: 1"/><line x1="127" x2="144" y1="567" y2="567" class="net_14 width_1" style="stroke-width: 1"/><line x1="144" x2="144" y1="567" y2="747" class="net_14 width_1" style="stroke-width: 1"/><line x1="144" x2="204" y1="747" y2="747" class="net_14 width_1" style="stroke-width: 1"/><line x1="126.5" x2="126.5" y1="587.5" y2="862" class="net_17 width_1" style="stroke-width: 1"/><line x1="126.5" x2="204" y1="862" y2="862" class="net_17 width_1" style="stroke-width: 1"/><line x1="126.5" x2="126.5" y1="607.5" y2="802" class="net_16 width_1" style="stroke-width: 1"/><line x1="126.5" x2="204" y1="802" y2="802" class="net_16 width_1" style="stroke-width: 1"/><line x1="232" x2="265" y1="302" y2="302" class="net_24 width_1" style="stroke-width: 1"/><line x1="265" x2="265" y1="302" y2="502" class="net_24 width_1" style="stroke-width: 1"/><line x1="265" x2="285" y1="502" y2="502" class="net_24 width_1" style="stroke-width: 1"/><line x1="232" x2="255" y1="357" y2="357" class="net_25 width_1" style="stroke-width: 1"/><line x1="255" x2="255" y1="357" y2="517" class="net_25 width_1" style="stroke-width: 1"/><line x1="255" x2="285" y1="517" y2="517" class="net_25 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="509.5" y2="509.5" class="net_35 width_1" style="stroke-width: 1"/><line x1="232" x2="255" y1="22" y2="22" class="net_19 width_1" style="stroke-width: 1"/><line x1="255" x2="255" y1="22" y2="177" class="net_19 width_1" style="stroke-width: 1"/><line x1="255" x2="285" y1="177" y2="177" class="net_19 width_1" style="stroke-width: 1"/><line x1="232" x2="285" y1="192" y2="192" class="net_22 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="184.5" y2="184.5" class="net_37 width_1" style="stroke-width: 1"/><line x1="384" x2="422" y1="509.5" y2="509.5" class="net_36 width_1" style="stroke-width: 1"/><line x1="384" x2="397" y1="184.5" y2="184.5" class="net_38 width_1" style="stroke-width: 1"/><line x1="397" x2="397" y1="184.5" y2="524.5" class="net_38 width_1" style="stroke-width: 1"/><line x1="397" x2="422" y1="524.5" y2="524.5" class="net_38 width_1" style="stroke-width: 1"/><line x1="458" x2="493" y1="517" y2="517" class="net_39 width_1" style="stroke-width: 1"/><line x1="232" x2="255" y1="692" y2="692" class="net_31 width_1" style="stroke-width: 1"/><line x1="255" x2="255" y1="692" y2="787" class="net_31 width_1" style="stroke-width: 1"/><line x1="255" x2="285" y1="787" y2="787" class="net_31 width_1" style="stroke-width: 1"/><line x1="232" x2="285" y1="802" y2="802" class="net_34 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="794.5" y2="794.5" class="net_41 width_1" style="stroke-width: 1"/><line x1="232" x2="255" y1="522" y2="522" class="net_28 width_1" style="stroke-width: 1"/><line x1="255" x2="255" y1="522" y2="562" class="net_28 width_1" style="stroke-width: 1"/><line x1="255" x2="285" y1="562" y2="562" class="net_28 width_1" style="stroke-width: 1"/><line x1="232" x2="285" y1="577" y2="577" class="net_29 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="569.5" y2="569.5" class="net_43 width_1" style="stroke-width: 1"/><line x1="384" x2="422" y1="794.5" y2="794.5" class="net_42 width_1" style="stroke-width: 1"/><line x1="384" x2="407" y1="569.5" y2="569.5" class="net_44 width_1" style="stroke-width: 1"/><line x1="407" x2="407" y1="569.5" y2="809.5" class="net_44 width_1" style="stroke-width: 1"/><line x1="407" x2="422" y1="809.5" y2="809.5" class="net_44 width_1" style="stroke-width: 1"/><line x1="458" x2="493" y1="802" y2="802" class="net_45 width_1" style="stroke-width: 1"/><line x1="521" x2="534" y1="517" y2="517" class="net_40 width_1" style="stroke-width: 1"/><line x1="534" x2="534" y1="517" y2="787" class="net_40 width_1" style="stroke-width: 1"/><line x1="534" x2="559" y1="787" y2="787" class="net_40 width_1" style="stroke-width: 1"/><line x1="521" x2="559" y1="802" y2="802" class="net_46 width_1" style="stroke-width: 1"/><line x1="595" x2="630" y1="794.5" y2="794.5" class="net_47 width_1" style="stroke-width: 1"/><line x1="232" x2="275" y1="247" y2="247" class="net_23 width_1" style="stroke-width: 1"/><line x1="275" x2="275" y1="247" y2="397" class="net_23 width_1" style="stroke-width: 1"/><line x1="275" x2="285" y1="397" y2="397" class="net_23 width_1" style="stroke-width: 1"/><line x1="232" x2="285" y1="412" y2="412" class="net_26 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="404.5" y2="404.5" class="net_49 width_1" style="stroke-width: 1"/><line x1="232" x2="245" y1="77" y2="77" class="net_20 width_1" style="stroke-width: 1"/><line x1="245" x2="245" y1="77" y2="117" class="net_20 width_1" style="stroke-width: 1"/><line x1="245" x2="285" y1="117" y2="117" class="net_20 width_1" style="stroke-width: 1"/><line x1="232" x2="285" y1="132" y2="132" class="net_21 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="124.5" y2="124.5" class="net_51 width_1" style="stroke-width: 1"/><line x1="384" x2="422" y1="404.5" y2="404.5" class="net_50 width_1" style="stroke-width: 1"/><line x1="384" x2="407" y1="124.5" y2="124.5" class="net_52 width_1" style="stroke-width: 1"/><line x1="407" x2="407" y1="124.5" y2="419.5" class="net_52 width_1" style="stroke-width: 1"/><line x1="407" x2="422" y1="419.5" y2="419.5" class="net_52 width_1" style="stroke-width: 1"/><line x1="458" x2="493" y1="412" y2="412" class="net_53 width_1" style="stroke-width: 1"/><line x1="232" x2="245" y1="747" y2="747" class="net_32 width_1" style="stroke-width: 1"/><line x1="245" x2="245" y1="747" y2="847" class="net_32 width_1" style="stroke-width: 1"/><line x1="245" x2="285" y1="847" y2="847" class="net_32 width_1" style="stroke-width: 1"/><line x1="232" x2="285" y1="862" y2="862" class="net_33 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="854.5" y2="854.5" class="net_55 width_1" style="stroke-width: 1"/><line x1="232" x2="245" y1="467" y2="467" class="net_27 width_1" style="stroke-width: 1"/><line x1="245" x2="245" y1="467" y2="622" class="net_27 width_1" style="stroke-width: 1"/><line x1="245" x2="285" y1="622" y2="622" class="net_27 width_1" style="stroke-width: 1"/><line x1="232" x2="285" y1="637" y2="637" class="net_30 width_1" style="stroke-width: 1"/><line x1="321" x2="356" y1="629.5" y2="629.5" class="net_57 width_1" style="stroke-width: 1"/><line x1="384" x2="422" y1="854.5" y2="854.5" class="net_56 width_1" style="stroke-width: 1"/><line x1="384" x2="397" y1="629.5" y2="629.5" class="net_58 width_1" style="stroke-width: 1"/><line x1="397" x2="397" y1="629.5" y2="869.5" class="net_58 width_1" style="stroke-width: 1"/><line x1="397" x2="422" y1="869.5" y2="869.5" class="net_58 width_1" style="stroke-width: 1"/><line x1="458" x2="493" y1="862" y2="862" class="net_59 width_1" style="stroke-width: 1"/><line x1="521" x2="544" y1="412" y2="412" class="net_54 width_1" style="stroke-width: 1"/><line x1="544" x2="544" y1="412" y2="847" class="net_54 width_1" style="stroke-width: 1"/><line x1="544" x2="559" y1="847" y2="847" class="net_54 width_1" style="stroke-width: 1"/><line x1="521" x2="559" y1="862" y2="862" class="net_60 width_1" style="stroke-width: 1"/><line x1="595" x2="630" y1="854.5" y2="854.5" class="net_61 width_1" style="stroke-width: 1"/><line x1="658" x2="671" y1="794.5" y2="794.5" class="net_48 width_1" style="stroke-width: 1"/><line x1="671" x2="671" y1="794.5" y2="839.5" class="net_48 width_1" style="stroke-width: 1"/><line x1="671" x2="696" y1="839.5" y2="839.5" class="net_48 width_1" style="stroke-width: 1"/><line x1="658" x2="696" y1="854.5" y2="854.5" class="net_62 width_1" style="stroke-width: 1"/><line x1="732" x2="767" y1="847" y2="847" class="net_63 width_1" style="stroke-width: 1"/><line x1="795" x2="833" y1="847" y2="847" class="net_18 width_1" style="stroke-width: 1"/><line x1="42" x2="122.5" y1="284.5" y2="284.5" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 width_16" style="stroke-width: 2"/><line x1="122.5" x2="122.5" y1="284.5" y2="316.5" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 width_16" style="stroke-width: 2"/><rect x="84" y="279.5" width="22" height="9" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 width_16 busLabel_16" style="fill: white; stroke: none"/><text x="83" y="287.5" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 width_16 busLabel_16">/16/</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="878" height="883.5">
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="not" transform="translate(215,12)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$120">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$120"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$120"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,67)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$121">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$121"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$121"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,122)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$122">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$122"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$122"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,182)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$123">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$123"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$123"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,237)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$124">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$124"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$124"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,292)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$125">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$125"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$125"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,347)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$126">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$126"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$126"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,402)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$127">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$127"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$127"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,457)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$128">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$128"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$128"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,512)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$129">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$129"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$129"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,567)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$130">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$130"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$130"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,622)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$131">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$131"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$131"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,677)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$132">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$132"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$132"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,732)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$133">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$133"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$133"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,851.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$134">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$134"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$134"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(215,791.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$135">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$135"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$135"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,337)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$136">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$136"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$136"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,339.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$137">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$137"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$137"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,172)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$138">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$138"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$138"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,174.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$139">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$139"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$139"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(416,344.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$140">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$140"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$140"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(487,347)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$141">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$141"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$141"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,781.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$142">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$142"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$142"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,784)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$143">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$143"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$143"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,557)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$144">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$144"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$144"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,559.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$145">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$145"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$145"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(416,789)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$146">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$146"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$146"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(487,791.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$147">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$147"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$147"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(552,781.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$148">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$148"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$148"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(623,784)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$149">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$149"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$149"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,242)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$150">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$150"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$150"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,244.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$151">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$151"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$151"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,112)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$152">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$152"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$152"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,114.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$153">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$153"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$153"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(416,249.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$154">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$154"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$154"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(487,252)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$155">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$155"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$155"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,841.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$156">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$156"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$156"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,844)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$157">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$157"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$157"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(280,462)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$158">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$158"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$158"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(351,464.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$159">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$159"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$159"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(416,454.5)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$160">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$160"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$160"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(487,457)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$161">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$161"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$161"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(552,447)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$162">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$162"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$162"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(623,449.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$163">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$163"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$163"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(688,789)" s:width="30" s:height="25" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$164">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$164"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$164"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(759,791.5)" s:width="30" s:height="20" id="cell_$abc$119$auto$blifparse.cc:386:parse_blif$165">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$165"/>
+    <circle cx="23" cy="10" r="3" class="cell_$abc$119$auto$blifparse.cc:386:parse_blif$165"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,449.5)" s:width="30" s:height="20" id="cell_input0">
+    <text x="15" y="-4" class="nodelabel cell_input0" s:attribute="ref">input0</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_input0"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="outputExt" transform="translate(824,791.5)" s:width="30" s:height="20" id="cell_boolean">
+    <text x="15" y="-4" class="nodelabel cell_boolean" s:attribute="ref">boolean</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_boolean"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+  <g s:type="split" transform="translate(83,471.5)" s:width="5" s:height="40" id="cell_$split$,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,">
+    <rect width="5" height="320" class="splitjoinBody" s:generic="body"/>
+    <s:alias val="$_split_"/>
+    <g s:x="0" s:y="20" s:pid="in"/>
+    <g transform="translate(4,10)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">1</text>
+    </g>
+    <g transform="translate(4,30)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">0</text>
+    </g>
+    <g transform="translate(4,50)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">3</text>
+    </g>
+    <g transform="translate(4,70)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">2</text>
+    </g>
+    <g transform="translate(4,90)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">5</text>
+    </g>
+    <g transform="translate(4,110)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">4</text>
+    </g>
+    <g transform="translate(4,130)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">7</text>
+    </g>
+    <g transform="translate(4,150)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">6</text>
+    </g>
+    <g transform="translate(4,170)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">9</text>
+    </g>
+    <g transform="translate(4,190)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">8</text>
+    </g>
+    <g transform="translate(4,210)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">11</text>
+    </g>
+    <g transform="translate(4,230)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">10</text>
+    </g>
+    <g transform="translate(4,250)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">13</text>
+    </g>
+    <g transform="translate(4,270)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">12</text>
+    </g>
+    <g transform="translate(4,290)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">15</text>
+    </g>
+    <g transform="translate(4,310)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">14</text>
+    </g>
+  </g>
+  <line x1="87.5" x2="87.5" y1="481.5" y2="22" class="net_3"/>
+  <line x1="87.5" x2="215" y1="22" y2="22" class="net_3"/>
+  <line x1="87.5" x2="87.5" y1="501.5" y2="77" class="net_2"/>
+  <line x1="87.5" x2="215" y1="77" y2="77" class="net_2"/>
+  <line x1="88" x2="105" y1="522" y2="522" class="net_5"/>
+  <line x1="105" x2="105" y1="522" y2="132" class="net_5"/>
+  <line x1="105" x2="215" y1="132" y2="132" class="net_5"/>
+  <line x1="88" x2="115" y1="542" y2="542" class="net_4"/>
+  <line x1="115" x2="115" y1="542" y2="192" class="net_4"/>
+  <line x1="115" x2="215" y1="192" y2="192" class="net_4"/>
+  <line x1="88" x2="125" y1="562" y2="562" class="net_7"/>
+  <line x1="125" x2="125" y1="562" y2="247" class="net_7"/>
+  <line x1="125" x2="215" y1="247" y2="247" class="net_7"/>
+  <line x1="88" x2="135" y1="582" y2="582" class="net_6"/>
+  <line x1="135" x2="135" y1="582" y2="302" class="net_6"/>
+  <line x1="135" x2="215" y1="302" y2="302" class="net_6"/>
+  <line x1="88" x2="145" y1="602" y2="602" class="net_9"/>
+  <line x1="145" x2="145" y1="602" y2="357" class="net_9"/>
+  <line x1="145" x2="215" y1="357" y2="357" class="net_9"/>
+  <line x1="88" x2="155" y1="622" y2="622" class="net_8"/>
+  <line x1="155" x2="155" y1="622" y2="412" class="net_8"/>
+  <line x1="155" x2="215" y1="412" y2="412" class="net_8"/>
+  <line x1="88" x2="165" y1="642" y2="642" class="net_11"/>
+  <line x1="165" x2="165" y1="642" y2="467" class="net_11"/>
+  <line x1="165" x2="215" y1="467" y2="467" class="net_11"/>
+  <line x1="88" x2="175" y1="662" y2="662" class="net_10"/>
+  <line x1="175" x2="175" y1="662" y2="522" class="net_10"/>
+  <line x1="175" x2="215" y1="522" y2="522" class="net_10"/>
+  <line x1="88" x2="185" y1="682" y2="682" class="net_13"/>
+  <line x1="185" x2="185" y1="682" y2="577" class="net_13"/>
+  <line x1="185" x2="215" y1="577" y2="577" class="net_13"/>
+  <line x1="88" x2="195" y1="702" y2="702" class="net_12"/>
+  <line x1="195" x2="195" y1="702" y2="632" class="net_12"/>
+  <line x1="195" x2="215" y1="632" y2="632" class="net_12"/>
+  <line x1="88" x2="205" y1="722" y2="722" class="net_15"/>
+  <line x1="205" x2="205" y1="722" y2="687" class="net_15"/>
+  <line x1="205" x2="215" y1="687" y2="687" class="net_15"/>
+  <line x1="88" x2="215" y1="742" y2="742" class="net_14"/>
+  <line x1="87.5" x2="87.5" y1="762.5" y2="861.5" class="net_17"/>
+  <line x1="87.5" x2="215" y1="861.5" y2="861.5" class="net_17"/>
+  <line x1="87.5" x2="87.5" y1="782.5" y2="801.5" class="net_16"/>
+  <line x1="87.5" x2="215" y1="801.5" y2="801.5" class="net_16"/>
+  <line x1="240" x2="265" y1="302" y2="302" class="net_24"/>
+  <line x1="265" x2="265" y1="302" y2="342" class="net_24"/>
+  <line x1="265" x2="280" y1="342" y2="342" class="net_24"/>
+  <line x1="240" x2="280" y1="357" y2="357" class="net_25"/>
+  <line x1="316" x2="351" y1="349.5" y2="349.5" class="net_35"/>
+  <line x1="240" x2="265" y1="22" y2="22" class="net_19"/>
+  <line x1="265" x2="265" y1="22" y2="177" class="net_19"/>
+  <line x1="265" x2="280" y1="177" y2="177" class="net_19"/>
+  <line x1="240" x2="280" y1="192" y2="192" class="net_22"/>
+  <line x1="316" x2="351" y1="184.5" y2="184.5" class="net_37"/>
+  <line x1="376" x2="416" y1="349.5" y2="349.5" class="net_36"/>
+  <line x1="376" x2="391" y1="184.5" y2="184.5" class="net_38"/>
+  <line x1="391" x2="391" y1="184.5" y2="364.5" class="net_38"/>
+  <line x1="391" x2="416" y1="364.5" y2="364.5" class="net_38"/>
+  <line x1="452" x2="487" y1="357" y2="357" class="net_39"/>
+  <line x1="240" x2="265" y1="687" y2="687" class="net_31"/>
+  <line x1="265" x2="265" y1="687" y2="786.5" class="net_31"/>
+  <line x1="265" x2="280" y1="786.5" y2="786.5" class="net_31"/>
+  <line x1="240" x2="280" y1="801.5" y2="801.5" class="net_34"/>
+  <line x1="316" x2="351" y1="794" y2="794" class="net_41"/>
+  <line x1="240" x2="265" y1="522" y2="522" class="net_28"/>
+  <line x1="265" x2="265" y1="522" y2="562" class="net_28"/>
+  <line x1="265" x2="280" y1="562" y2="562" class="net_28"/>
+  <line x1="240" x2="280" y1="577" y2="577" class="net_29"/>
+  <line x1="316" x2="351" y1="569.5" y2="569.5" class="net_43"/>
+  <line x1="376" x2="416" y1="794" y2="794" class="net_42"/>
+  <line x1="376" x2="401" y1="569.5" y2="569.5" class="net_44"/>
+  <line x1="401" x2="401" y1="569.5" y2="809" class="net_44"/>
+  <line x1="401" x2="416" y1="809" y2="809" class="net_44"/>
+  <line x1="452" x2="487" y1="801.5" y2="801.5" class="net_45"/>
+  <line x1="512" x2="527" y1="357" y2="357" class="net_40"/>
+  <line x1="527" x2="527" y1="357" y2="786.5" class="net_40"/>
+  <line x1="527" x2="552" y1="786.5" y2="786.5" class="net_40"/>
+  <line x1="512" x2="552" y1="801.5" y2="801.5" class="net_46"/>
+  <line x1="588" x2="623" y1="794" y2="794" class="net_47"/>
+  <line x1="240" x2="280" y1="247" y2="247" class="net_23"/>
+  <line x1="240" x2="255" y1="412" y2="412" class="net_26"/>
+  <line x1="255" x2="255" y1="412" y2="262" class="net_26"/>
+  <line x1="255" x2="280" y1="262" y2="262" class="net_26"/>
+  <line x1="316" x2="351" y1="254.5" y2="254.5" class="net_49"/>
+  <line x1="240" x2="255" y1="77" y2="77" class="net_20"/>
+  <line x1="255" x2="255" y1="77" y2="117" class="net_20"/>
+  <line x1="255" x2="280" y1="117" y2="117" class="net_20"/>
+  <line x1="240" x2="280" y1="132" y2="132" class="net_21"/>
+  <line x1="316" x2="351" y1="124.5" y2="124.5" class="net_51"/>
+  <line x1="376" x2="416" y1="254.5" y2="254.5" class="net_50"/>
+  <line x1="376" x2="401" y1="124.5" y2="124.5" class="net_52"/>
+  <line x1="401" x2="401" y1="124.5" y2="269.5" class="net_52"/>
+  <line x1="401" x2="416" y1="269.5" y2="269.5" class="net_52"/>
+  <line x1="452" x2="487" y1="262" y2="262" class="net_53"/>
+  <line x1="240" x2="255" y1="742" y2="742" class="net_32"/>
+  <line x1="255" x2="255" y1="742" y2="846.5" class="net_32"/>
+  <line x1="255" x2="280" y1="846.5" y2="846.5" class="net_32"/>
+  <line x1="240" x2="280" y1="861.5" y2="861.5" class="net_33"/>
+  <line x1="316" x2="351" y1="854" y2="854" class="net_55"/>
+  <line x1="240" x2="280" y1="467" y2="467" class="net_27"/>
+  <line x1="240" x2="255" y1="632" y2="632" class="net_30"/>
+  <line x1="255" x2="255" y1="632" y2="482" class="net_30"/>
+  <line x1="255" x2="280" y1="482" y2="482" class="net_30"/>
+  <line x1="316" x2="351" y1="474.5" y2="474.5" class="net_57"/>
+  <line x1="376" x2="391" y1="854" y2="854" class="net_56"/>
+  <line x1="391" x2="391" y1="854" y2="459.5" class="net_56"/>
+  <line x1="391" x2="416" y1="459.5" y2="459.5" class="net_56"/>
+  <line x1="376" x2="416" y1="474.5" y2="474.5" class="net_58"/>
+  <line x1="452" x2="487" y1="467" y2="467" class="net_59"/>
+  <line x1="512" x2="537" y1="262" y2="262" class="net_54"/>
+  <line x1="537" x2="537" y1="262" y2="452" class="net_54"/>
+  <line x1="537" x2="552" y1="452" y2="452" class="net_54"/>
+  <line x1="512" x2="552" y1="467" y2="467" class="net_60"/>
+  <line x1="588" x2="623" y1="459.5" y2="459.5" class="net_61"/>
+  <line x1="648" x2="688" y1="794" y2="794" class="net_48"/>
+  <line x1="648" x2="663" y1="459.5" y2="459.5" class="net_62"/>
+  <line x1="663" x2="663" y1="459.5" y2="809" class="net_62"/>
+  <line x1="663" x2="688" y1="809" y2="809" class="net_62"/>
+  <line x1="724" x2="759" y1="801.5" y2="801.5" class="net_63"/>
+  <line x1="784" x2="824" y1="801.5" y2="801.5" class="net_18"/>
+  <line x1="40" x2="83.5" y1="459.5" y2="459.5" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17"/>
+  <line x1="83.5" x2="83.5" y1="459.5" y2="491.5" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17"/>
+</svg>
