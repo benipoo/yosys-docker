@@ -70,9 +70,9 @@ line {
     <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
     <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
 
-    <g s:x="0" s:y="3" s:pid="A"/>
-    <g s:x="0" s:y="9.5" s:pid="B"/>
-    <g s:x="0" s:y="22" s:pid="C"/>
+    <g s:x="0" s:y="3.5" s:pid="A"/>
+    <g s:x="0" s:y="14.5" s:pid="B"/>
+    <g s:x="0" s:y="22.5" s:pid="C"/>
     <g s:x="36" s:y="12.5" s:pid="Y"/>
   </g>
 
@@ -83,10 +83,10 @@ line {
     <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
     <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
 
-    <g s:x="0" s:y="3" s:pid="A"/>
-    <g s:x="0" s:y="7.75" s:pid="B"/>
-    <g s:x="0" s:y="12.5" s:pid="C"/>
-    <g s:x="0" s:y="22" s:pid="D"/>
+    <g s:x="0" s:y="3.5" s:pid="A"/>
+    <g s:x="0" s:y="12.75" s:pid="B"/>
+    <g s:x="0" s:y="17.5" s:pid="C"/>
+    <g s:x="0" s:y="22.5" s:pid="D"/>
     <g s:x="36" s:y="12.5" s:pid="Y"/>
   </g>
   
@@ -125,9 +125,9 @@ line {
     <path d="M0,0 A30 25 0 0 1 0,25 A30 25 0 0 0 30,12.5 A30 25 0 0 0 0,0" class="$cell_id"/>
     <circle cx="33" cy="12.5" r="3" class="$cell_id"/>
 
-    <g s:x="0" s:y="3" s:pid="A"/>
-    <g s:x="0" s:y="9.5" s:pid="B"/>
-    <g s:x="0" s:y="22" s:pid="C"/>
+    <g s:x="0" s:y="3.5" s:pid="A"/>
+    <g s:x="0" s:y="14.5" s:pid="B"/>
+    <g s:x="0" s:y="22.5" s:pid="C"/>
     <g s:x="36" s:y="12.5" s:pid="Y"/>
   </g>
 
@@ -138,10 +138,10 @@ line {
     <path d="M0,0 A30 25 0 0 1 0,25 A30 25 0 0 0 30,12.5 A30 25 0 0 0 0,0" class="$cell_id"/>
     <circle cx="33" cy="12.5" r="3" class="$cell_id"/>
 
-    <g s:x="0" s:y="3" s:pid="A"/>
-    <g s:x="0" s:y="7.75" s:pid="B"/>
-    <g s:x="0" s:y="12.5" s:pid="C"/>
-    <g s:x="0" s:y="22" s:pid="D"/>
+    <g s:x="0" s:y="3.5" s:pid="A"/>
+    <g s:x="0" s:y="12.75" s:pid="B"/>
+    <g s:x="0" s:y="17.5" s:pid="C"/>
+    <g s:x="0" s:y="22.5" s:pid="D"/>
     <g s:x="36" s:y="12.5" s:pid="Y"/>
   </g>
 
