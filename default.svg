@@ -155,6 +155,32 @@ line {
     <g s:x="0" s:y="22" s:pid="H"/>
     <g s:x="36" s:y="12.5" s:pid="Y"/>
   </g>
+  
+  <g s:type="NAND16" transform="translate(150,160)" s:width="30" s:height="25">
+    <s:alias val="NAND16"/>
+    <s:alias val="$NAND16"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="3" s:pid="A"/>
+    <g s:x="0" s:y="4.1875" s:pid="B"/>
+    <g s:x="0" s:y="5.375" s:pid="C"/>
+    <g s:x="0" s:y="6.5625" s:pid="D"/>
+    <g s:x="0" s:y="7.75" s:pid="E"/>
+    <g s:x="0" s:y="8.9375" s:pid="F"/>
+    <g s:x="0" s:y="10.125" s:pid="G"/>
+    <g s:x="0" s:y="11.3125" s:pid="H"/>
+    <g s:x="0" s:y="12.5" s:pid="I"/>
+    <g s:x="0" s:y="13.6875" s:pid="J"/>
+    <g s:x="0" s:y="14.875" s:pid="K"/>
+    <g s:x="0" s:y="16.0625" s:pid="L"/>
+    <g s:x="0" s:y="17.25" s:pid="M"/>
+    <g s:x="0" s:y="18.4375" s:pid="N"/>
+    <g s:x="0" s:y="19.625" s:pid="O"/>
+    <g s:x="0" s:y="20.8125" s:pid="P"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
 
   <!-- or -->
   <g s:type="or" transform="translate(250,50)" s:width="30" s:height="25">
