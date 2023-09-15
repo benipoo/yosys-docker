@@ -53,6 +53,7 @@ line {
   
   <g s:type="nand2" transform="translate(150,100)" s:width="30" s:height="25">
     <s:alias val="nand2"/>
+    <s:alias val="$nand2"/>
 
     <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
     <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
@@ -64,6 +65,7 @@ line {
 
   <g s:type="nand3" transform="translate(150,130)" s:width="30" s:height="25">
     <s:alias val="nand3"/>
+    <s:alias val="$nand3"/>
 
     <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
     <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
@@ -76,6 +78,7 @@ line {
 
   <g s:type="nand4" transform="translate(150,160)" s:width="30" s:height="25">
     <s:alias val="nand4"/>
+    <s:alias val="$nand4"/>
 
     <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
     <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
@@ -105,6 +108,7 @@ line {
   
   <g s:type="nor2" transform="translate(250, 100)" s:width="33" s:height="25">
     <s:alias val="nor2"/>
+    <s:alias val="$nor2"/>
 
     <path d="M0,0 A30 25 0 0 1 0,25 A30 25 0 0 0 30,12.5 A30 25 0 0 0 0,0" class="$cell_id"/>
     <circle cx="33" cy="12.5" r="3" class="$cell_id"/>
@@ -116,6 +120,7 @@ line {
 
   <g s:type="nor3" transform="translate(250,130)" s:width="30" s:height="25">
     <s:alias val="nor3"/>
+    <s:alias val="$nor3"/>
 
     <path d="M0,0 A30 25 0 0 1 0,25 A30 25 0 0 0 30,12.5 A30 25 0 0 0 0,0" class="$cell_id"/>
     <circle cx="33" cy="12.5" r="3" class="$cell_id"/>
@@ -128,6 +133,7 @@ line {
 
   <g s:type="nor4" transform="translate(250,160)" s:width="30" s:height="25">
     <s:alias val="nor4"/>
+    <s:alias val="$nor4"/>
 
     <path d="M0,0 A30 25 0 0 1 0,25 A30 25 0 0 0 30,12.5 A30 25 0 0 0 0,0" class="$cell_id"/>
     <circle cx="33" cy="12.5" r="3" class="$cell_id"/>
@@ -171,6 +177,7 @@ line {
   <!--buffer -->
   <g s:type="not" transform="translate(450,100)" s:width="30" s:height="20">
     <s:alias val="not"/>
+    <s:alias val="$not"/>
 
     <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
     <circle cx="24" cy="10" r="3" class="$cell_id"/>
@@ -181,6 +188,7 @@ line {
   
   <g s:type="buf" transform="translate(450,50)" s:width="30" s:height="20">
     <s:alias val="buf"/>
+    <s:alias val="$buf"/>
 
     <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
 
