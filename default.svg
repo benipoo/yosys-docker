@@ -216,9 +216,9 @@ line {
     <path d="M0,0 A30 25 0 0 1 0,25 A30 25 0 0 0 30,12.5 A30 25 0 0 0 0,0" class="$cell_id"/>
     <circle cx="33" cy="12.5" r="3" class="$cell_id"/>
 
-    <g s:x="1" s:y="5" s:pid="A"/>
+    <g s:x="2" s:y="8" s:pid="A"/>
     <g s:x="3" s:y="12.5" s:pid="B"/>
-    <g s:x="1" s:y="20" s:pid="C"/>
+    <g s:x="2" s:y="17" s:pid="C"/>
     <g s:x="36" s:y="12.5" s:pid="Y"/>
   </g>
 
