@@ -170,8 +170,6 @@ line {
   
   <!--buffer -->
   <g s:type="not" transform="translate(450,100)" s:width="30" s:height="20">
-    <s:alias val="$_NOT_"/>
-    <s:alias val="$not"/>
     <s:alias val="not"/>
 
     <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
@@ -180,8 +178,9 @@ line {
     <g s:x="-1" s:y="10" s:pid="A"/>
     <g s:x="27" s:y="10" s:pid="Y"/>
   </g>
+  
   <g s:type="buf" transform="translate(450,50)" s:width="30" s:height="20">
-    <s:alias val="$_BUF_"/>
+    <s:alias val="buf"/>
 
     <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
 
