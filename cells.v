@@ -1,10 +1,4 @@
 
-module BUF(A, Y);
-input A;
-output Y;
-assign Y = A;
-endmodule
-
 module NOT(A, Y);
 input A;
 output Y;
@@ -65,4 +59,3 @@ always @(posedge C, posedge S, posedge R)
 	else
 		Q <= D;
 endmodule
-
