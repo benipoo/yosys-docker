@@ -1,27 +1,22 @@
 // test comment
 /* test comment */
 library(cells) {
-  cell(BUF) {
-    area: 6;
-    pin(A) { direction: input; }
-    pin(Y) { direction: output;
-              function: "A"; }
-  }
+
   cell(NOT) {
-    area: 3;
+    area: 1;
     pin(A) { direction: input; }
     pin(Y) { direction: output;
               function: "A'"; }
   }
   cell(NAND2) {
-    area: 4;
+    area: 1;
     pin(A) { direction: input; }
     pin(B) { direction: input; }
     pin(Y) { direction: output;
              function: "(A*B)'"; }
   }
   cell(NAND3) {
-    area: 4;
+    area: 1;
     pin(A) { direction: input; }
     pin(B) { direction: input; }
     pin(C) { direction: input; }
@@ -29,7 +24,7 @@ library(cells) {
              function: "(A*B*C)'"; }
   }
   cell(NAND4) {
-    area: 4;
+    area: 1;
     pin(A) { direction: input; }
     pin(B) { direction: input; }
     pin(C) { direction: input; }
@@ -38,14 +33,14 @@ library(cells) {
              function: "(A*B*C*D)'"; }
   }
   cell(NOR2) {
-    area: 4;
+    area: 1;
     pin(A) { direction: input; }
     pin(B) { direction: input; }
     pin(Y) { direction: output;
              function: "(A+B)'"; }
   }
   cell(NOR3) {
-    area: 4;
+    area: 1;
     pin(A) { direction: input; }
     pin(B) { direction: input; }
     pin(C) { direction: input; }
@@ -53,7 +48,7 @@ library(cells) {
              function: "(A+B+C)'"; }
   }
   cell(NOR4) {
-    area: 4;
+    area: 1;
     pin(A) { direction: input; }
     pin(B) { direction: input; }
     pin(C) { direction: input; }
