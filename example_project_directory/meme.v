@@ -3,7 +3,7 @@
 module meme(
 
     input [8:0] A,
-    output reg Y);
+    output reg [6:0] Y);
 	
     always @(*)
         if(A == 420)
