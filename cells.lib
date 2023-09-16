@@ -174,4 +174,29 @@ library(cells) {
     pin(Y) { direction: output;
              function: "(A+B+C+D+E+F+G+H)'"; }
   }
+  cell(DFF) {
+    area: 18;
+    ff(IQ, IQN) { clocked_on: C;
+                  next_state: D; }
+    pin(C) { direction: input;
+                 clock: true; }
+    pin(D) { direction: input; }
+    pin(Q) { direction: output;
+              function: "IQ"; }
+  }
+  cell(DFFSR) {
+    area: 18;
+    ff("IQ", "IQN") { clocked_on: C;
+                  next_state: D;
+                      preset: S;
+                       clear: R; }
+    pin(C) { direction: input;
+                 clock: true; }
+    pin(D) { direction: input; }
+    pin(Q) { direction: output;
+              function: "IQ"; }
+    pin(S) { direction: input; }
+    pin(R) { direction: input; }
+    ; // empty statement
+  }
 }
