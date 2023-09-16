@@ -1,18 +1,6 @@
 {
   "creator": "Yosys 0.28+1 (git sha1 a9c792dce, clang 10.0.0-4ubuntu1 -fPIC -Os)",
   "modules": {
-    "$abstract\\meme": {
-      "attributes": {
-        "cells_not_processed": "00000000000000000000000000000001",
-        "src": "meme.v:3.1-13.10"
-      },
-      "ports": {
-      },
-      "cells": {
-      },
-      "netnames": {
-      }
-    },
     "BUF": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
@@ -1299,6 +1287,161 @@
           "bits": [ 3 ],
           "attributes": {
             "src": "cells.v:10.8-10.9"
+          }
+        }
+      }
+    },
+    "meme": {
+      "attributes": {
+        "hdlname": "\\meme",
+        "top": "00000000000000000000000000000001",
+        "src": "meme.v:3.1-13.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [ 11, "0", 11, "0", "0", "0", 11 ]
+        }
+      },
+      "cells": {
+        "$abc$127$auto$blifparse.cc:386:parse_blif$128": {
+          "hide_name": 1,
+          "type": "NOT",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 12 ]
+          }
+        },
+        "$abc$127$auto$blifparse.cc:386:parse_blif$129": {
+          "hide_name": 1,
+          "type": "NOT",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$abc$127$auto$blifparse.cc:386:parse_blif$130": {
+          "hide_name": 1,
+          "type": "NAND2",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9 ],
+            "B": [ 10 ],
+            "Y": [ 14 ]
+          }
+        },
+        "$abc$127$auto$blifparse.cc:386:parse_blif$131": {
+          "hide_name": 1,
+          "type": "NAND4",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 12 ],
+            "B": [ 4 ],
+            "C": [ 13 ],
+            "D": [ 7 ],
+            "Y": [ 15 ]
+          }
+        },
+        "$abc$127$auto$blifparse.cc:386:parse_blif$132": {
+          "hide_name": 1,
+          "type": "NOR5",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "E": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 2 ],
+            "C": [ 8 ],
+            "D": [ 14 ],
+            "E": [ 15 ],
+            "Y": [ 11 ]
+          }
+        }
+      },
+      "netnames": {
+        "$abc$127$new_n11_": {
+          "hide_name": 1,
+          "bits": [ 12 ],
+          "attributes": {
+          }
+        },
+        "$abc$127$new_n12_": {
+          "hide_name": 1,
+          "bits": [ 13 ],
+          "attributes": {
+          }
+        },
+        "$abc$127$new_n13_": {
+          "hide_name": 1,
+          "bits": [ 14 ],
+          "attributes": {
+          }
+        },
+        "$abc$127$new_n14_": {
+          "hide_name": 1,
+          "bits": [ 15 ],
+          "attributes": {
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10 ],
+          "attributes": {
+            "src": "meme.v:5.17-5.18"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 11, "0", 11, "0", "0", "0", 11 ],
+          "attributes": {
+            "src": "meme.v:6.22-6.23"
           }
         }
       }
