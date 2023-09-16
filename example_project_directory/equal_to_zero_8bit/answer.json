@@ -1,6 +1,18 @@
 {
   "creator": "Yosys 0.28+1 (git sha1 a9c792dce, clang 10.0.0-4ubuntu1 -fPIC -Os)",
   "modules": {
+    "$abstract\\equal_to_zero_8bit": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "equal_to_zero_8bit.v:3.1-17.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
     "BUF": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
@@ -1287,137 +1299,6 @@
           "bits": [ 3 ],
           "attributes": {
             "src": "cells.v:10.8-10.9"
-          }
-        }
-      }
-    },
-    "equal_to_zero_8bit": {
-      "attributes": {
-        "hdlname": "\\equal_to_zero_8bit",
-        "top": "00000000000000000000000000000001",
-        "src": "equal_to_zero_8bit.v:3.1-17.10"
-      },
-      "ports": {
-        "A": {
-          "direction": "input",
-          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
-        },
-        "Y": {
-          "direction": "output",
-          "bits": [ 10 ]
-        }
-      },
-      "cells": {
-        "$abc$102$auto$blifparse.cc:386:parse_blif$103": {
-          "hide_name": 1,
-          "type": "NOR4",
-          "parameters": {
-          },
-          "attributes": {
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Y": "output"
-          },
-          "connections": {
-            "A": [ 7 ],
-            "B": [ 6 ],
-            "C": [ 9 ],
-            "D": [ 8 ],
-            "Y": [ 11 ]
-          }
-        },
-        "$abc$102$auto$blifparse.cc:386:parse_blif$104": {
-          "hide_name": 1,
-          "type": "NOR4",
-          "parameters": {
-          },
-          "attributes": {
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Y": "output"
-          },
-          "connections": {
-            "A": [ 3 ],
-            "B": [ 2 ],
-            "C": [ 5 ],
-            "D": [ 4 ],
-            "Y": [ 12 ]
-          }
-        },
-        "$abc$102$auto$blifparse.cc:386:parse_blif$105": {
-          "hide_name": 1,
-          "type": "NAND2",
-          "parameters": {
-          },
-          "attributes": {
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "Y": "output"
-          },
-          "connections": {
-            "A": [ 11 ],
-            "B": [ 12 ],
-            "Y": [ 13 ]
-          }
-        },
-        "$abc$102$auto$blifparse.cc:386:parse_blif$106": {
-          "hide_name": 1,
-          "type": "NOT",
-          "parameters": {
-          },
-          "attributes": {
-          },
-          "port_directions": {
-            "A": "input",
-            "Y": "output"
-          },
-          "connections": {
-            "A": [ 13 ],
-            "Y": [ 10 ]
-          }
-        }
-      },
-      "netnames": {
-        "$abc$102$new_n10_": {
-          "hide_name": 1,
-          "bits": [ 11 ],
-          "attributes": {
-          }
-        },
-        "$abc$102$new_n11_": {
-          "hide_name": 1,
-          "bits": [ 12 ],
-          "attributes": {
-          }
-        },
-        "$abc$102$new_n12_": {
-          "hide_name": 1,
-          "bits": [ 13 ],
-          "attributes": {
-          }
-        },
-        "A": {
-          "hide_name": 0,
-          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
-          "attributes": {
-            "src": "equal_to_zero_8bit.v:5.17-5.18"
-          }
-        },
-        "Y": {
-          "hide_name": 0,
-          "bits": [ 10 ],
-          "attributes": {
-            "src": "equal_to_zero_8bit.v:6.16-6.17"
           }
         }
       }

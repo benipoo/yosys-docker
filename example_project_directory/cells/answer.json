@@ -1,6 +1,222 @@
 {
   "creator": "Yosys 0.28+1 (git sha1 a9c792dce, clang 10.0.0-4ubuntu1 -fPIC -Os)",
   "modules": {
+    "$abstract\\BUF": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:2.1-6.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\DFF": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:98.1-103.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\DFFSR": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:105.1-115.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NAND2": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:14.1-18.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NAND3": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:20.1-24.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NAND4": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:26.1-30.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NAND5": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:32.1-36.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NAND6": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:38.1-42.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NAND7": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:44.1-48.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NAND8": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:50.1-54.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOR2": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:56.1-60.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOR3": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:62.1-66.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOR4": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:68.1-72.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOR5": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:74.1-78.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOR6": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:80.1-84.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOR7": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:86.1-90.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOR8": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:92.1-96.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
+    "$abstract\\NOT": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "cells.v:8.1-12.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    },
     "BUF": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
@@ -85,7 +301,7 @@
     "DFFSR": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
-        "top": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
         "src": "cells.v:105.1-115.10"
       },
       "ports": {

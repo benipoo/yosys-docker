@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="104" height="154"><style>svg {
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="0" height="0"><style>svg {
   stroke:#000;
   fill:none;
 }
@@ -20,4 +20,4 @@ line {
 }
 .splitjoinBody {
   fill:#000;
-}</style><g s:type="inputExt" transform="translate(12,22)" s:width="30" s:height="20" id="cell_C"><text x="15" y="-4" class="nodelabel cell_C" s:attribute="ref">C</text><s:alias val="$_inputExt_"/><path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_C"/><g s:x="30" s:y="10" s:pid="Y"/></g><g s:type="inputExt" transform="translate(62,22)" s:width="30" s:height="20" id="cell_D"><text x="15" y="-4" class="nodelabel cell_D" s:attribute="ref">D</text><s:alias val="$_inputExt_"/><path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_D"/><g s:x="30" s:y="10" s:pid="Y"/></g><g s:type="outputExt" transform="translate(12,72)" s:width="30" s:height="20" id="cell_Q"><text x="15" y="-4" class="nodelabel cell_Q" s:attribute="ref">Q</text><s:alias val="$_outputExt_"/><path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_Q"/><g s:x="0" s:y="10" s:pid="A"/></g><g s:type="inputExt" transform="translate(62,72)" s:width="30" s:height="20" id="cell_S"><text x="15" y="-4" class="nodelabel cell_S" s:attribute="ref">S</text><s:alias val="$_inputExt_"/><path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_S"/><g s:x="30" s:y="10" s:pid="Y"/></g><g s:type="inputExt" transform="translate(12,122)" s:width="30" s:height="20" id="cell_R"><text x="15" y="-4" class="nodelabel cell_R" s:attribute="ref">R</text><s:alias val="$_inputExt_"/><path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_R"/><g s:x="30" s:y="10" s:pid="Y"/></g></svg>
+}</style></svg>
