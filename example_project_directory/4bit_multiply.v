@@ -7,5 +7,6 @@ module 4bit_multiply(
     output reg [7:0] Y);
 	
     always @(*)
-        assign Y = A * B;	
+        Y = A * B;
+
 endmodule
