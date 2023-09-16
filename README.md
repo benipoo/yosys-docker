@@ -28,7 +28,7 @@ git clone https://github.com/benipoo/yosys-docker.git
 cd yosys-docker/example_project_directory/
 cp -fr default.svg /oss-cad-suite/netlistsvg/lib/
 rm -R -- */ ; 
-for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir"; cp -t "$dir" "$file" cells.lib cells.v default.svg; cd "$dir"; yosys -p 'read_verilog -lib cells.v; synth -auto-top; dfflibmap -liberty cells.lib; abc -liberty cells.lib; opt_clean; stat -liberty cells.lib; write_json answer.json' "$file"; netlistsvg answer.json; cd ../; done
+for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir"; cp -t "$dir" "$file" cells.lib cells.v default.svg; cd "$dir"; yosys -p 'read_verilog -lib cells.v; synth -auto-top; abc -liberty cells.lib; opt_clean; stat -liberty cells.lib; write_json answer.json' "$file"; netlistsvg answer.json; cd ../; done
 git add .
 git config --global user.email
 git commit -m "commit message"
