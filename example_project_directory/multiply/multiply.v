@@ -1,12 +1,11 @@
 `timescale 1ns / 1ps
 
-module 4bit_multiply(
+module multiply(
 
     input [3:0] A,
     input [3:0] B,
     output reg [7:0] Y);
 	
     always @(*)
-        Y = A * B;
-
+        Y = A * B;	
 endmodule
