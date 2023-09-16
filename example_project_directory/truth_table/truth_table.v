@@ -5,7 +5,7 @@ module truth_table(
     input RST,
     output reg[7:0] out);
     
-always @ (posedge CLK or negedge RST) 
+always @ (posedge CLK) 
 begin  
     if (!RST)  
         begin
