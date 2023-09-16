@@ -9,10 +9,10 @@ module comparator_8bit(
 	always @(*)
 	    if(A > B)
 	        begin
-		    out = 1;
+		    Y = 1;
 		end
 	    else
 	        begin
-		    out = 0;
+		    Y = 0;
 	    end
 endmodule
