@@ -3,7 +3,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://benipoo-effective-orbit-757w744799vfxrgg.github.dev/)
+
 
 <img src="images/patrick_quote2.svg">
 
