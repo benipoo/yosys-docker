@@ -4,7 +4,8 @@
 (* top =  1  *)
 (* src = "truth_table.v:3.1-23.10" *)
 module truth_table(CLK, RST, out);
-  wire _000_;
+  (* src = "truth_table.v:8.1-22.4" *)
+  wire [7:0] _000_;
   wire _001_;
   wire _002_;
   wire _003_;
@@ -16,30 +17,29 @@ module truth_table(CLK, RST, out);
   wire _009_;
   wire _010_;
   wire _011_;
-  (* src = "truth_table.v:5.11-5.14" *)
   wire _012_;
   wire _013_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.23-270.24" *)
   wire _014_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
   wire _015_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
   wire _016_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
   wire _017_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
   wire _018_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
   wire _019_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _020_;
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _021_;
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _022_;
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _023_;
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _024_;
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _025_;
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _026_;
+  (* src = "truth_table.v:8.1-22.4" *)
   wire _027_;
   wire _028_;
   wire _029_;
@@ -69,15 +69,10 @@ module truth_table(CLK, RST, out);
   wire _053_;
   wire _054_;
   wire _055_;
-  (* src = "truth_table.v:6.21-6.24" *)
   wire _056_;
-  (* src = "truth_table.v:6.21-6.24" *)
   wire _057_;
-  (* src = "truth_table.v:6.21-6.24" *)
   wire _058_;
-  (* src = "truth_table.v:6.21-6.24" *)
   wire _059_;
-  (* src = "truth_table.v:6.21-6.24" *)
   wire _060_;
   (* src = "truth_table.v:6.21-6.24" *)
   wire _061_;
@@ -85,12 +80,16 @@ module truth_table(CLK, RST, out);
   wire _062_;
   (* src = "truth_table.v:6.21-6.24" *)
   wire _063_;
-  (* force_downto = 32'd1 *)
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.23-270.24" *)
-  wire [7:0] _064_;
-  (* force_downto = 32'd1 *)
-  (* src = "truth_table.v:20.20-20.27|/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27" *)
-  wire [7:0] _065_;
+  (* src = "truth_table.v:6.21-6.24" *)
+  wire _064_;
+  (* src = "truth_table.v:6.21-6.24" *)
+  wire _065_;
+  (* src = "truth_table.v:6.21-6.24" *)
+  wire _066_;
+  (* src = "truth_table.v:6.21-6.24" *)
+  wire _067_;
+  (* src = "truth_table.v:6.21-6.24" *)
+  wire _068_;
   (* src = "truth_table.v:4.11-4.14" *)
   input CLK;
   wire CLK;
@@ -100,99 +99,93 @@ module truth_table(CLK, RST, out);
   (* src = "truth_table.v:6.21-6.24" *)
   output [7:0] out;
   reg [7:0] out;
-  assign _022_ = ~_057_;
-  assign _014_ = ~_056_;
-  assign _023_ = ~_059_;
-  assign _024_ = ~_058_;
-  assign _025_ = ~_061_;
-  assign _026_ = ~_060_;
-  assign _027_ = ~_062_;
-  assign _028_ = ~_063_;
-  assign _029_ = ~(_057_ & _056_);
-  assign _030_ = ~_029_;
-  assign _031_ = ~(_058_ & _030_);
-  assign _032_ = ~_031_;
-  assign _033_ = ~(_059_ & _032_);
-  assign _034_ = ~_033_;
-  assign _035_ = ~(_060_ & _034_);
+  assign _028_ = ~_062_;
+  assign _020_ = ~_061_;
+  assign _029_ = ~_064_;
+  assign _030_ = ~_063_;
+  assign _031_ = ~_066_;
+  assign _032_ = ~_065_;
+  assign _033_ = ~_067_;
+  assign _034_ = ~_068_;
+  assign _035_ = ~(_062_ & _061_);
   assign _036_ = ~_035_;
-  assign _037_ = ~(_061_ & _036_);
-  assign _038_ = ~_037_;
-  assign _039_ = ~(_062_ & _038_);
-  assign _040_ = ~_039_;
-  assign _041_ = ~(_063_ & _040_);
-  assign _013_ = ~(_012_ & _041_);
-  assign _042_ = ~(_022_ & _014_);
-  assign _043_ = ~(_029_ & _042_);
-  assign _015_ = ~_043_;
-  assign _044_ = ~(_024_ & _029_);
-  assign _045_ = ~(_031_ & _044_);
-  assign _016_ = ~_045_;
-  assign _046_ = ~(_023_ & _031_);
-  assign _047_ = ~(_033_ & _046_);
-  assign _017_ = ~_047_;
-  assign _048_ = ~(_026_ & _033_);
-  assign _049_ = ~(_035_ & _048_);
-  assign _018_ = ~_049_;
-  assign _050_ = ~(_025_ & _035_);
-  assign _051_ = ~(_037_ & _050_);
-  assign _019_ = ~_051_;
-  assign _052_ = ~(_027_ & _037_);
-  assign _053_ = ~(_039_ & _052_);
-  assign _020_ = ~_053_;
-  assign _054_ = ~(_028_ & _039_);
-  assign _055_ = ~(_041_ & _054_);
-  assign _021_ = ~_055_;
+  assign _037_ = ~(_028_ & _020_);
+  assign _038_ = ~(_035_ & _037_);
+  assign _021_ = ~_038_;
+  assign _039_ = ~(_030_ & _035_);
+  assign _040_ = ~(_063_ & _036_);
+  assign _041_ = ~_040_;
+  assign _042_ = ~(_039_ & _040_);
+  assign _022_ = ~_042_;
+  assign _043_ = ~(_064_ & _041_);
+  assign _044_ = ~_043_;
+  assign _045_ = ~(_029_ & _040_);
+  assign _046_ = ~(_043_ & _045_);
+  assign _023_ = ~_046_;
+  assign _047_ = ~(_032_ & _043_);
+  assign _048_ = ~(_065_ & _044_);
+  assign _049_ = ~_048_;
+  assign _050_ = ~(_047_ & _048_);
+  assign _024_ = ~_050_;
+  assign _051_ = ~(_031_ & _048_);
+  assign _052_ = ~(_066_ & _049_);
+  assign _053_ = ~_052_;
+  assign _054_ = ~(_051_ & _052_);
+  assign _025_ = ~_054_;
+  assign _055_ = ~(_033_ & _052_);
+  assign _056_ = ~(_067_ & _053_);
+  assign _057_ = ~_056_;
+  assign _058_ = ~(_055_ & _056_);
+  assign _026_ = ~_058_;
+  assign _059_ = ~(_068_ & _056_);
+  assign _060_ = ~(_034_ & _057_);
+  assign _027_ = ~(_059_ & _060_);
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[0] <= 1'h0;
-    else out[0] <= _064_[0];
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[0] <= 1'h0;
+    else out[0] <= _000_[0];
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[1] <= 1'h0;
-    else out[1] <= _065_[1];
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[1] <= 1'h0;
+    else out[1] <= _000_[1];
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[2] <= 1'h0;
-    else out[2] <= _065_[2];
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[2] <= 1'h0;
+    else out[2] <= _000_[2];
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[3] <= 1'h0;
-    else out[3] <= _065_[3];
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[3] <= 1'h0;
+    else out[3] <= _000_[3];
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[4] <= 1'h0;
-    else out[4] <= _065_[4];
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[4] <= 1'h0;
+    else out[4] <= _000_[4];
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[5] <= 1'h0;
-    else out[5] <= _065_[5];
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[5] <= 1'h0;
+    else out[5] <= _000_[5];
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[6] <= 1'h0;
-    else out[6] <= _065_[6];
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[6] <= 1'h0;
+    else out[6] <= _000_[6];
   (* src = "truth_table.v:8.1-22.4" *)
-  always @(posedge CLK)
-    if (_000_) out[7] <= 1'h0;
-    else out[7] <= _065_[7];
-  assign _064_[7:1] = out[7:1];
-  assign _065_[0] = _064_[0];
-  assign _057_ = out[1];
-  assign _056_ = out[0];
-  assign _059_ = out[3];
-  assign _058_ = out[2];
-  assign _061_ = out[5];
-  assign _060_ = out[4];
-  assign _062_ = out[6];
-  assign _063_ = out[7];
-  assign _012_ = RST;
-  assign _000_ = _013_;
-  assign _064_[0] = _014_;
-  assign _065_[1] = _015_;
-  assign _065_[2] = _016_;
-  assign _065_[3] = _017_;
-  assign _065_[4] = _018_;
-  assign _065_[5] = _019_;
-  assign _065_[6] = _020_;
-  assign _065_[7] = _021_;
+  always @(posedge CLK, negedge RST)
+    if (!RST) out[7] <= 1'h0;
+    else out[7] <= _000_[7];
+  assign _062_ = out[1];
+  assign _061_ = out[0];
+  assign _064_ = out[3];
+  assign _063_ = out[2];
+  assign _066_ = out[5];
+  assign _065_ = out[4];
+  assign _067_ = out[6];
+  assign _068_ = out[7];
+  assign _000_[0] = _020_;
+  assign _000_[1] = _021_;
+  assign _000_[2] = _022_;
+  assign _000_[3] = _023_;
+  assign _000_[4] = _024_;
+  assign _000_[5] = _025_;
+  assign _000_[6] = _026_;
+  assign _000_[7] = _027_;
 endmodule
