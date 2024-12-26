@@ -15,7 +15,7 @@ mkdir yosys
 cd yosys
 sudo docker pull ubuntu:latest
 sudo docker run -it --rm ubuntu:latest
-apt update && apt install git wget -y && wget https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2023-04-17/oss-cad-suite-linux-x64-20230417.tgz && \
+apt update && apt install git wget -y && wget https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2024-12-26/oss-cad-suite-linux-x64-20241226.tgz && \
 tar -xvzf oss-cad-suite-linux-x64-20230417.tgz
 cd oss-cad-suite
 source ./environment
