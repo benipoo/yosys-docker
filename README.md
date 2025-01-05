@@ -26,15 +26,13 @@ npm install -g .
 npm install elkjs --force
 git clone https://github.com/benipoo/yosys-docker.git
 cd yosys-docker/example_project_directory/
-cp -fr default.svg /oss-cad-suite/netlistsvg/lib/
 rm -R -- */ ; 
-for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir"; cp -t "$dir" "$file" cells.lib cells.v default.svg; cd "$dir"; yosys -p 'read_verilog -lib cells.v; synth -auto-top; abc -liberty cells.lib; opt_clean; stat -liberty cells.lib; write_json answer.json' "$file"; netlistsvg answer.json; cd ../; done
+for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir" ; cp "$file" "$dir" ; cd "$dir" ; yosys -p 'synth -auto-top ; abc -g NAND; write_verilog output.v' "$file" -p 'write_json answer.json';  netlistsvg answer.json ; cd ../ ; done
 git add .
 git config --global user.email
 git commit -m "commit message"
 git push
 ```
-for file in *.v; do dir=${file%%.*} ; mkdir -p "$dir" ; cp "$file" "$dir" ; cd "$dir" ; yosys -p 'synth -auto-top ; abc -g cmos2,-NOR; write_verilog output.v' "$file" -p 'write_json answer.json' -p 'write_spice answer.spice';  netlistsvg answer.json ; cd ../ ; done
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
