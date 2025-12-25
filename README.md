@@ -44,3 +44,4 @@ git push
 [stars-url]: https://github.com/benipoo/yosys-docker/stargazers
 [issues-shield]: https://img.shields.io/github/issues/benipoo/yosys-docker.svg?style=for-the-badge
 [issues-url]: https://github.com/benipoo/yosys-docker/issues
+YéYp»Ê¹miôjËØve9bZWÂfQÇì
